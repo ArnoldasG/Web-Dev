@@ -1,0 +1,33 @@
+/*  selector { property : value; } */
+body {
+  background-color: #eaf6f6;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 6px;
+  width: 5%;
+}
+
+h1 {
+  color: #66bfbf;
+}
+h3 {
+  color: #66bfbf;
+}
+
+.smm {
+  background-color: green;
+}
+
+.karate {
+  background-color: red;
+}
+
+#name:hover {
+  color: darkred;
+  font-size: 50px;
+  /* background-color: gold; */
+}

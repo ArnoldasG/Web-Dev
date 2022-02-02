@@ -82,24 +82,84 @@
 
 /* If Else Statements */
 
-function calculationBmi(weight, height) {
+// function calculationBmi(weight, height) {
 
-    // weight (kg) / [height (m)]2
+//     // weight (kg) / [height (m)]2
 
-    var BMI = weight / (height * height)
+//     var BMI = weight / (height * height)
 
-    BMI = Math.round(BMI * 10) / 10;
+//     BMI = Math.round(BMI * 10) / 10;
 
-    if (BMI < 18.5) {
-        return "Your BMI is " + BMI + "," + " so you are underweight";
-    } else if (BMI > 18.5 && BMI < 24.9) {
-        return "Your BMI is " + BMI + "," + " so you are a normal weight";
-    } else {
-        return "Your BMI is " + BMI + "," + " so you are overweight";
-    }
-}
-
-
+//     if (BMI < 18.5) {
+//         return "Your BMI is " + BMI + "," + " so you are underweight";
+//     } else if (BMI > 18.5 && BMI < 24.9) {
+//         return "Your BMI is " + BMI + "," + " so you are a normal weight";
+//     } else {
+//         return "Your BMI is " + BMI + "," + " so you are overweight";
+//     }
+// }
 
 
-console.log(calculationBmi(75, 1.8));
+
+
+// console.log(calculationBmi(75, 1.8));
+
+/* Arrays - Collection of items that are related */
+
+// var guestList = ["Arnoldas", "Justina", "Valerija", "Urte", "Bingaile"];
+// console.log(guestList[0]);
+// console.log(guestList.includes("Tomas"));
+
+// var yourName = prompt("Tell me your name");
+
+// if (guestList.includes(yourName)) {
+//     alert("Welcome " + yourName);
+// } else {
+//     alert("You need another name");
+// }
+
+
+/* Write a program that print the numbers from 1 to 100. But for multiples of three printi "Fizz" instead of the number and for the multiples of five "Buzz". For numbers which are multiples of both three and five print "FizzBuzz" */
+
+// var output = [];
+// var count = 1;
+
+// function fizzBuzz() {
+
+//     if (count % 3 === 0 && count % 5 === 0) {
+//         output.push("FizzBuzz")
+//     }
+//     else if (count % 3 === 0) {
+//         output.push("Fizz");
+//     } else if (count % 5 === 0) {
+//         output.push("Buzz");
+//     } else {
+//         output.push(count);
+//     }
+//     count++;
+//     console.log(output);
+// }
+
+// fizzBuzz();
+// fizzBuzz();
+// fizzBuzz();
+// fizzBuzz();
+// fizzBuzz();
+// fizzBuzz();
+// fizzBuzz();
+// fizzBuzz();
+// fizzBuzz();
+// fizzBuzz();
+// fizzBuzz();
+// fizzBuzz();
+// fizzBuzz();
+// fizzBuzz();
+// fizzBuzz();
+// fizzBuzz();
+// fizzBuzz();
+// fizzBuzz();
+// fizzBuzz();
+// fizzBuzz();
+// fizzBuzz();
+// fizzBuzz();
+// fizzBuzz();
